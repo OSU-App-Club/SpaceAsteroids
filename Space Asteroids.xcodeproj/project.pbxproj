@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564406111667F3E700DC8D91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564406101667F3E700DC8D91 /* UIKit.framework */; };
+		564406131667F3E700DC8D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564406121667F3E700DC8D91 /* Foundation.framework */; };
+		564406151667F3E700DC8D91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564406141667F3E700DC8D91 /* CoreGraphics.framework */; };
+		5644061B1667F3E700DC8D91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 564406191667F3E700DC8D91 /* InfoPlist.strings */; };
+		5644061D1667F3E700DC8D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5644061C1667F3E700DC8D91 /* main.m */; };
+		564406211667F3E700DC8D91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 564406201667F3E700DC8D91 /* AppDelegate.m */; };
+		564406241667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564406221667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard */; };
+		564406271667F3E700DC8D91 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564406251667F3E700DC8D91 /* MainStoryboard_iPad.storyboard */; };
+		5644062A1667F3E700DC8D91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564406291667F3E700DC8D91 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5644060C1667F3E700DC8D91 /* Space Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Asteroids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		564406101667F3E700DC8D91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		564406121667F3E700DC8D91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		564406141667F3E700DC8D91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		564406181667F3E700DC8D91 /* Space Asteroids-Info.plist */ = {isa = PBXFileReference; path = "Space Asteroids-Info.plist"; sourceTree = "<group>"; };
+		5644061A1667F3E700DC8D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5644061C1667F3E700DC8D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5644061E1667F3E700DC8D91 /* Space Asteroids-Prefix.pch */ = {isa = PBXFileReference; path = "Space Asteroids-Prefix.pch"; sourceTree = "<group>"; };
+		5644061F1667F3E700DC8D91 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		564406201667F3E700DC8D91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		564406231667F3E700DC8D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		564406261667F3E700DC8D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		564406281667F3E700DC8D91 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		564406291667F3E700DC8D91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564406091667F3E700DC8D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564406111667F3E700DC8D91 /* UIKit.framework in Frameworks */,
+				564406131667F3E700DC8D91 /* Foundation.framework in Frameworks */,
+				564406151667F3E700DC8D91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564406011667F3E700DC8D91 = {
+			isa = PBXGroup;
+			children = (
+				564406161667F3E700DC8D91 /* Space Asteroids */,
+				5644060F1667F3E700DC8D91 /* Frameworks */,
+				5644060D1667F3E700DC8D91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5644060D1667F3E700DC8D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5644060C1667F3E700DC8D91 /* Space Asteroids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5644060F1667F3E700DC8D91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				564406101667F3E700DC8D91 /* UIKit.framework */,
+				564406121667F3E700DC8D91 /* Foundation.framework */,
+				564406141667F3E700DC8D91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		564406161667F3E700DC8D91 /* Space Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				5644061F1667F3E700DC8D91 /* AppDelegate.h */,
+				564406201667F3E700DC8D91 /* AppDelegate.m */,
+				564406221667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard */,
+				564406251667F3E700DC8D91 /* MainStoryboard_iPad.storyboard */,
+				564406281667F3E700DC8D91 /* ViewController.h */,
+				564406291667F3E700DC8D91 /* ViewController.m */,
+				564406171667F3E700DC8D91 /* Supporting Files */,
+			);
+			path = "Space Asteroids";
+			sourceTree = "<group>";
+		};
+		564406171667F3E700DC8D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564406181667F3E700DC8D91 /* Space Asteroids-Info.plist */,
+				564406191667F3E700DC8D91 /* InfoPlist.strings */,
+				5644061C1667F3E700DC8D91 /* main.m */,
+				5644061E1667F3E700DC8D91 /* Space Asteroids-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5644060B1667F3E700DC8D91 /* Space Asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5644062D1667F3E700DC8D91 /* Build configuration list for PBXNativeTarget "Space Asteroids" */;
+			buildPhases = (
+				564406081667F3E700DC8D91 /* Sources */,
+				564406091667F3E700DC8D91 /* Frameworks */,
+				5644060A1667F3E700DC8D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Asteroids";
+			productName = "Space Asteroids";
+			productReference = 5644060C1667F3E700DC8D91 /* Space Asteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564406031667F3E700DC8D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 564406061667F3E700DC8D91 /* Build configuration list for PBXProject "Space Asteroids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 564406011667F3E700DC8D91;
+			productRefGroup = 5644060D1667F3E700DC8D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5644060B1667F3E700DC8D91 /* Space Asteroids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5644060A1667F3E700DC8D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5644061B1667F3E700DC8D91 /* InfoPlist.strings in Resources */,
+				564406241667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard in Resources */,
+				564406271667F3E700DC8D91 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564406081667F3E700DC8D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5644061D1667F3E700DC8D91 /* main.m in Sources */,
+				564406211667F3E700DC8D91 /* AppDelegate.m in Sources */,
+				5644062A1667F3E700DC8D91 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		564406191667F3E700DC8D91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5644061A1667F3E700DC8D91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		564406221667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564406231667F3E700DC8D91 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		564406251667F3E700DC8D91 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564406261667F3E700DC8D91 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5644062B1667F3E700DC8D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5644062C1667F3E700DC8D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5644062E1667F3E700DC8D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Asteroids/Space Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "Space Asteroids/Space Asteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5644062F1667F3E700DC8D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Asteroids/Space Asteroids-Prefix.pch";
+				INFOPLIST_FILE = "Space Asteroids/Space Asteroids-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564406061667F3E700DC8D91 /* Build configuration list for PBXProject "Space Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5644062B1667F3E700DC8D91 /* Debug */,
+				5644062C1667F3E700DC8D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5644062D1667F3E700DC8D91 /* Build configuration list for PBXNativeTarget "Space Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5644062E1667F3E700DC8D91 /* Debug */,
+				5644062F1667F3E700DC8D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564406031667F3E700DC8D91 /* Project object */;
+}
