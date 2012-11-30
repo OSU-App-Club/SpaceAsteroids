@@ -16,6 +16,9 @@
 		564406241667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564406221667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard */; };
 		564406271667F3E700DC8D91 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564406251667F3E700DC8D91 /* MainStoryboard_iPad.storyboard */; };
 		5644062A1667F3E700DC8D91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564406291667F3E700DC8D91 /* ViewController.m */; };
+		830E9D8E166970100027CA56 /* Asteroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E9D89166970100027CA56 /* Asteroid.m */; };
+		830E9D8F166970100027CA56 /* Rocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E9D8B166970100027CA56 /* Rocket.m */; };
+		830E9D90166970100027CA56 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E9D8D166970100027CA56 /* Ship.m */; };
 		834A5719166808C70089AB3D /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A5718166808C70089AB3D /* libTestFlight.a */; };
 		834A571D1668090C0089AB3D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A571C1668090C0089AB3D /* libz.dylib */; };
 		834A571F166809230089AB3D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A571E166809230089AB3D /* CoreMotion.framework */; };
@@ -39,6 +42,12 @@
 		564406261667F3E700DC8D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		564406281667F3E700DC8D91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		564406291667F3E700DC8D91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		830E9D88166970100027CA56 /* Asteroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asteroid.h; sourceTree = "<group>"; };
+		830E9D89166970100027CA56 /* Asteroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asteroid.m; sourceTree = "<group>"; };
+		830E9D8A166970100027CA56 /* Rocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rocket.h; sourceTree = "<group>"; };
+		830E9D8B166970100027CA56 /* Rocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rocket.m; sourceTree = "<group>"; };
+		830E9D8C166970100027CA56 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		830E9D8D166970100027CA56 /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
 		834A5718166808C70089AB3D /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = "../../Downloads/TestFlightSDK1-1/libTestFlight.a"; sourceTree = "<group>"; };
 		834A571B166808D40089AB3D /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFlight.h; path = "Space Asteroids/TestFlight.h"; sourceTree = "<group>"; };
 		834A571C1668090C0089AB3D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -106,6 +115,12 @@
 				564406251667F3E700DC8D91 /* MainStoryboard_iPad.storyboard */,
 				564406281667F3E700DC8D91 /* ViewController.h */,
 				564406291667F3E700DC8D91 /* ViewController.m */,
+				830E9D88166970100027CA56 /* Asteroid.h */,
+				830E9D89166970100027CA56 /* Asteroid.m */,
+				830E9D8A166970100027CA56 /* Rocket.h */,
+				830E9D8B166970100027CA56 /* Rocket.m */,
+				830E9D8C166970100027CA56 /* Ship.h */,
+				830E9D8D166970100027CA56 /* Ship.m */,
 				564406171667F3E700DC8D91 /* Supporting Files */,
 			);
 			path = "Space Asteroids";
@@ -201,6 +216,9 @@
 				5644061D1667F3E700DC8D91 /* main.m in Sources */,
 				564406211667F3E700DC8D91 /* AppDelegate.m in Sources */,
 				5644062A1667F3E700DC8D91 /* ViewController.m in Sources */,
+				830E9D8E166970100027CA56 /* Asteroid.m in Sources */,
+				830E9D8F166970100027CA56 /* Rocket.m in Sources */,
+				830E9D90166970100027CA56 /* Ship.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
