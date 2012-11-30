@@ -15,6 +15,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //Setup for TestFlight
+    //[TestFlight takeOff:@"Private"];
+    
+    //Hide status bar
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+
+    
     return YES;
 }
 							

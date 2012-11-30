@@ -16,6 +16,12 @@
 		564406241667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564406221667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard */; };
 		564406271667F3E700DC8D91 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564406251667F3E700DC8D91 /* MainStoryboard_iPad.storyboard */; };
 		5644062A1667F3E700DC8D91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564406291667F3E700DC8D91 /* ViewController.m */; };
+		834A5719166808C70089AB3D /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A5718166808C70089AB3D /* libTestFlight.a */; };
+		834A571D1668090C0089AB3D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A571C1668090C0089AB3D /* libz.dylib */; };
+		834A571F166809230089AB3D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A571E166809230089AB3D /* CoreMotion.framework */; };
+		838DB2C21669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 838DB2C11669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg */; };
+		838DB2C41669540F0009CB24 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 838DB2C31669540F0009CB24 /* asteroid.png */; };
+		838DB2C6166956EB0009CB24 /* alien-spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 838DB2C5166956EB0009CB24 /* alien-spaceship.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +29,23 @@
 		564406101667F3E700DC8D91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		564406121667F3E700DC8D91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		564406141667F3E700DC8D91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		564406181667F3E700DC8D91 /* Space Asteroids-Info.plist */ = {isa = PBXFileReference; path = "Space Asteroids-Info.plist"; sourceTree = "<group>"; };
+		564406181667F3E700DC8D91 /* Space Asteroids-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space Asteroids-Info.plist"; sourceTree = "<group>"; };
 		5644061A1667F3E700DC8D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5644061C1667F3E700DC8D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5644061E1667F3E700DC8D91 /* Space Asteroids-Prefix.pch */ = {isa = PBXFileReference; path = "Space Asteroids-Prefix.pch"; sourceTree = "<group>"; };
-		5644061F1667F3E700DC8D91 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5644061E1667F3E700DC8D91 /* Space Asteroids-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Space Asteroids-Prefix.pch"; sourceTree = "<group>"; };
+		5644061F1667F3E700DC8D91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		564406201667F3E700DC8D91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		564406231667F3E700DC8D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		564406261667F3E700DC8D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		564406281667F3E700DC8D91 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		564406281667F3E700DC8D91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		564406291667F3E700DC8D91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		834A5718166808C70089AB3D /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = "../../Downloads/TestFlightSDK1-1/libTestFlight.a"; sourceTree = "<group>"; };
+		834A571B166808D40089AB3D /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFlight.h; path = "Space Asteroids/TestFlight.h"; sourceTree = "<group>"; };
+		834A571C1668090C0089AB3D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		834A571E166809230089AB3D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		838DB2C11669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "space-stars-1920x1080-wallpaper.jpg"; sourceTree = "<group>"; };
+		838DB2C31669540F0009CB24 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid.png; sourceTree = "<group>"; };
+		838DB2C5166956EB0009CB24 /* alien-spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien-spaceship.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +53,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834A571F166809230089AB3D /* CoreMotion.framework in Frameworks */,
 				564406111667F3E700DC8D91 /* UIKit.framework in Frameworks */,
 				564406131667F3E700DC8D91 /* Foundation.framework in Frameworks */,
 				564406151667F3E700DC8D91 /* CoreGraphics.framework in Frameworks */,
+				834A5719166808C70089AB3D /* libTestFlight.a in Frameworks */,
+				834A571D1668090C0089AB3D /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +85,10 @@
 		5644060F1667F3E700DC8D91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				834A571E166809230089AB3D /* CoreMotion.framework */,
+				834A571C1668090C0089AB3D /* libz.dylib */,
+				834A571B166808D40089AB3D /* TestFlight.h */,
+				834A5718166808C70089AB3D /* libTestFlight.a */,
 				564406101667F3E700DC8D91 /* UIKit.framework */,
 				564406121667F3E700DC8D91 /* Foundation.framework */,
 				564406141667F3E700DC8D91 /* CoreGraphics.framework */,
@@ -79,6 +99,7 @@
 		564406161667F3E700DC8D91 /* Space Asteroids */ = {
 			isa = PBXGroup;
 			children = (
+				838DB2BF166951340009CB24 /* Images */,
 				5644061F1667F3E700DC8D91 /* AppDelegate.h */,
 				564406201667F3E700DC8D91 /* AppDelegate.m */,
 				564406221667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard */,
@@ -99,6 +120,16 @@
 				5644061E1667F3E700DC8D91 /* Space Asteroids-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		838DB2BF166951340009CB24 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				838DB2C11669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg */,
+				838DB2C31669540F0009CB24 /* asteroid.png */,
+				838DB2C5166956EB0009CB24 /* alien-spaceship.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +185,9 @@
 				5644061B1667F3E700DC8D91 /* InfoPlist.strings in Resources */,
 				564406241667F3E700DC8D91 /* MainStoryboard_iPhone.storyboard in Resources */,
 				564406271667F3E700DC8D91 /* MainStoryboard_iPad.storyboard in Resources */,
+				838DB2C21669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg in Resources */,
+				838DB2C41669540F0009CB24 /* asteroid.png in Resources */,
+				838DB2C6166956EB0009CB24 /* alien-spaceship.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +287,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Space Asteroids/Space Asteroids-Prefix.pch";
 				INFOPLIST_FILE = "Space Asteroids/Space Asteroids-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/TestFlightSDK1-1\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,6 +303,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Space Asteroids/Space Asteroids-Prefix.pch";
 				INFOPLIST_FILE = "Space Asteroids/Space Asteroids-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads/TestFlightSDK1-1\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -288,6 +332,7 @@
 				5644062F1667F3E700DC8D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
