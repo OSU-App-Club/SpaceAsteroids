@@ -21,7 +21,9 @@
     return createdAsteroid;
 }
 +(Asteroid *) mediumAsteroid{
-    Asteroid *createdAsteroid = [[Asteroid alloc] initWithImage:nil]; //Create with specific image
+    Asteroid *createdAsteroid = [[Asteroid alloc] initWithImage:[UIImage imageNamed:@"asteroid.png"]]; //Create with specific image
+    
+    createdAsteroid.bounds = CGRectMake(0, 0, 40, 40);
     
     return createdAsteroid;
 }
