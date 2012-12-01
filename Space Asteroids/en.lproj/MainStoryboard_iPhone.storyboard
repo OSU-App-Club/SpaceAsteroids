@@ -17,10 +17,17 @@
                                 <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="alien-spaceship.png" id="rOl-ZT-UEq" customClass="Ship">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="alien-spaceship.png" id="rOl-ZT-UEq" customClass="Ship">
                                 <rect key="frame" x="197" y="261" width="86" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES"/>
                             </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pVC-Lr-PXC">
+                                <rect key="frame" x="375" y="0.0" width="105" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="35"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -28,6 +35,7 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="scoreLabel" destination="pVC-Lr-PXC" id="nUK-8O-7eG"/>
                         <outlet property="ship" destination="rOl-ZT-UEq" id="sTT-jK-EKx"/>
                     </connections>
                 </viewController>
@@ -46,6 +54,7 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="ship" candidateClass="Ship"/>
             </relationships>
         </class>

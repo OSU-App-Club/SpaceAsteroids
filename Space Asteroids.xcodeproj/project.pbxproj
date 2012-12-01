@@ -19,9 +19,11 @@
 		830E9D8E166970100027CA56 /* Asteroid.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E9D89166970100027CA56 /* Asteroid.m */; };
 		830E9D8F166970100027CA56 /* Rocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E9D8B166970100027CA56 /* Rocket.m */; };
 		830E9D90166970100027CA56 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 830E9D8D166970100027CA56 /* Ship.m */; };
-		834A5719166808C70089AB3D /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A5718166808C70089AB3D /* libTestFlight.a */; };
 		834A571D1668090C0089AB3D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A571C1668090C0089AB3D /* libz.dylib */; };
 		834A571F166809230089AB3D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A571E166809230089AB3D /* CoreMotion.framework */; };
+		836A20F31669B9D00015AC3F /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 836A20F21669B9D00015AC3F /* rocket.png */; };
+		836A20F61669BCC60015AC3F /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 836A20F51669BCC60015AC3F /* libTestFlight.a */; };
+		836A20F81669BD040015AC3F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836A20F71669BD040015AC3F /* QuartzCore.framework */; };
 		838DB2C21669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 838DB2C11669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg */; };
 		838DB2C41669540F0009CB24 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 838DB2C31669540F0009CB24 /* asteroid.png */; };
 		838DB2C6166956EB0009CB24 /* alien-spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 838DB2C5166956EB0009CB24 /* alien-spaceship.png */; };
@@ -48,10 +50,12 @@
 		830E9D8B166970100027CA56 /* Rocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rocket.m; sourceTree = "<group>"; };
 		830E9D8C166970100027CA56 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
 		830E9D8D166970100027CA56 /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
-		834A5718166808C70089AB3D /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestFlight.a; path = "../../Downloads/TestFlightSDK1-1/libTestFlight.a"; sourceTree = "<group>"; };
 		834A571B166808D40089AB3D /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFlight.h; path = "Space Asteroids/TestFlight.h"; sourceTree = "<group>"; };
 		834A571C1668090C0089AB3D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		834A571E166809230089AB3D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		836A20F21669B9D00015AC3F /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		836A20F51669BCC60015AC3F /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		836A20F71669BD040015AC3F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		838DB2C11669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "space-stars-1920x1080-wallpaper.jpg"; sourceTree = "<group>"; };
 		838DB2C31669540F0009CB24 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asteroid.png; sourceTree = "<group>"; };
 		838DB2C5166956EB0009CB24 /* alien-spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien-spaceship.png"; sourceTree = "<group>"; };
@@ -62,12 +66,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836A20F81669BD040015AC3F /* QuartzCore.framework in Frameworks */,
 				834A571F166809230089AB3D /* CoreMotion.framework in Frameworks */,
 				564406111667F3E700DC8D91 /* UIKit.framework in Frameworks */,
 				564406131667F3E700DC8D91 /* Foundation.framework in Frameworks */,
 				564406151667F3E700DC8D91 /* CoreGraphics.framework in Frameworks */,
-				834A5719166808C70089AB3D /* libTestFlight.a in Frameworks */,
 				834A571D1668090C0089AB3D /* libz.dylib in Frameworks */,
+				836A20F61669BCC60015AC3F /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +99,11 @@
 		5644060F1667F3E700DC8D91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				836A20F71669BD040015AC3F /* QuartzCore.framework */,
 				834A571E166809230089AB3D /* CoreMotion.framework */,
 				834A571C1668090C0089AB3D /* libz.dylib */,
+				836A20F51669BCC60015AC3F /* libTestFlight.a */,
 				834A571B166808D40089AB3D /* TestFlight.h */,
-				834A5718166808C70089AB3D /* libTestFlight.a */,
 				564406101667F3E700DC8D91 /* UIKit.framework */,
 				564406121667F3E700DC8D91 /* Foundation.framework */,
 				564406141667F3E700DC8D91 /* CoreGraphics.framework */,
@@ -143,6 +149,7 @@
 				838DB2C11669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg */,
 				838DB2C31669540F0009CB24 /* asteroid.png */,
 				838DB2C5166956EB0009CB24 /* alien-spaceship.png */,
+				836A20F21669B9D00015AC3F /* rocket.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -203,6 +210,7 @@
 				838DB2C21669513F0009CB24 /* space-stars-1920x1080-wallpaper.jpg in Resources */,
 				838DB2C41669540F0009CB24 /* asteroid.png in Resources */,
 				838DB2C6166956EB0009CB24 /* alien-spaceship.png in Resources */,
+				836A20F31669B9D00015AC3F /* rocket.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +317,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads/TestFlightSDK1-1\"",
+					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -325,6 +334,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Downloads/TestFlightSDK1-1\"",
+					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

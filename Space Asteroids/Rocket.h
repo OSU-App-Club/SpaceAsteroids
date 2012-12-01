@@ -11,6 +11,7 @@
 @interface Rocket : UIImageView
 
 @property (readonly) CGFloat speed; //Speed in points/second
+@property int points;
 
 +(Rocket *) standardRocket;
 

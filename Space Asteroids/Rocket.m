@@ -10,10 +10,15 @@
 
 @implementation Rocket
 @synthesize speed = _speed;
+@synthesize points = _points;
 
 +(Rocket *) standardRocket{
+    Rocket *createdRocket = [[Rocket alloc] initWithImage:[UIImage imageNamed:@"rocket.png"]];
     
+    createdRocket.bounds = CGRectMake(0, 0, 20,30);
+    createdRocket.points = 10;
     
+    return createdRocket;
 }
 
 @end
